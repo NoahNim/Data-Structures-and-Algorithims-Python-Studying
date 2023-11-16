@@ -1,3 +1,10 @@
+# create two pointers, a starts at s[0] and b starts at s[1]
+# loop through s while b and s is < len(s)
+# hash of numbers 1 through 0
+# if a is in hashnums and b is not, add that letter to a new string a amount of times
+# for multiple digit numbers before have a varible to store those digits
+# return the new string
+
 def uncompress(s):
     new_str = ""
     a = 0
