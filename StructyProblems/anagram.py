@@ -10,7 +10,7 @@ def char_count(s):
 
 
 def anagrams(s1, s2):
-    return char_count(s) == char_count(t)
+    return char_count(s1) == char_count(s2)
     # l2 = list(s2)
 
     # if len(s2) > len(s1) or len(s2) < len(s1):
