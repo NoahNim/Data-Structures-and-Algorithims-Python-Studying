@@ -21,10 +21,8 @@ def how_high(node):
     right_height = 1 + _how_high(node.right)
     if right_height > left_height:
         return right_height
-    elif left_height > right_height:
-        return left_height
     else:
-        return right_height
+        return left_height
 
 
 def _how_high(node):
