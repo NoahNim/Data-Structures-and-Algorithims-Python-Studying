@@ -20,7 +20,7 @@
 # The only time we move the left pointer is if we exceed our k limit
 # so create a set called window = {}
 # each time we analyze R pointer, we check if it is in window. if it is not add it to the window, if it is we can return True
-# We also keep track if the indices count between L and R is less than or equal to k by finding the distance between L and R by substracting the indices of of L and R to see if the result is less than or equal to the k constraint
+# We also keep track if the indices count between L and R is less than or equal to k by finding the distance between L and R by substracting the indices of of L and R to see if the result is larger than the k constraint
 # if the difference (window constraint) is bigger than k, the left pointer moves over by one
 # [1,2,3,4,6,1]
 #    L     R
